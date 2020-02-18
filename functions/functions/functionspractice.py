@@ -27,8 +27,11 @@ def five_num_summary(items):
 
 ### START FUNCTION
 def date_parser(dates):
+    """ function takes a list of strings and return a list where each element in date format"""
+    new_list = [i[0:10] for i in dates] 
+    return new_list
     # your code here
-    return
+    
 
 ### END FUNCTION
 
